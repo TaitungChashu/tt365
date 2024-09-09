@@ -1,3 +1,45 @@
+:root {
+    --bs-body-font-family: "Noto Sans TC", sans-serif;
+}
 body{
     background-color:#2f2f2f;
+    font-family: "Noto Sans TC", sans-serif !important;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    font-weight: 800 !important;
+    text-shadow: 2px 1px 3px #2f2f2f ;
+}
+.title-area {
+    height: 80vh;
+    background-image: url("../assets/images/20240820_161835.jpg");
+    background-size: cover;
+    padding: 20% 0;
+}
+.usage-area {
+    background-color: #def2ff;
+    padding: 5% 0;
+}
+.usage-img {
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+.li-title {
+    font-weight: 800 !important;
+}
+
+.shop-area {
+    background-color: #b9dbf1;
+    padding: 5% 0;
+}
+.h2-link {
+}
+
+@media (max-width: 991.98px) { 
+    .usage-img {
+        aspect-ratio: 2;
+    }
 }

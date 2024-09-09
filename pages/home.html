@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -20,7 +23,7 @@
 							<a class="nav-link active" aria-current="page" href="#">首頁</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#">使用方法</a>
+							<a class="nav-link" href="#usage">使用方法</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -43,20 +46,65 @@
 			</nav>
 	</header>
 
-	<div class="container">
-		<button type="button" class="btn">Base class</button>
+	<div class="title-area">
+		<div class="container">
+			<h1 class="text-light text-center">台東觀光 • 360省錢券</h1>
+			<div class="row justify-content-center py-3">
+				<div class="col-6 text-center">
+					<button type="button" class="btn btn-primary btn-lg text-center rounded-pill">下載 Download</button>
+				</div>
+			</div>
+		</div>
 	</div>
+
+	<div id="usage" class="usage-area">
+		<div class="container">
+			<div class="row justify-content-evenly">
+				<div class="col-lg-4">
+					<h2>使用方法</h2>
+					<p>歡迎來到「台東縣觀光消費券」使用指南！以下是簡單的三步驟，讓您輕鬆享受優惠：</p>
+					<ol>
+						<li>
+							<span class="li-title">下載優惠券圖檔</span>
+							請至本官網下載專屬的優惠券圖檔。只需點擊下載按鈕，保存到您的行動裝置或列印出來，隨時準備好使用！
+						</li>
+						<li>
+							<span class="li-title">查詢合作店家</span>
+							想知道哪些店家可以使用優惠券？您可以在我們的官網上瀏覽完整的合作店家名單，從特色餐廳到旅遊體驗應有盡有！
+						</li>
+						<li>
+							<span class="li-title">使用優惠券享折扣</span>
+							到訪合作店家時，只需向店家表示您要使用消費券，店家將依其規定折抵指定的金額，讓您享受更多優惠！
+						</li>
+					</ol>
+					<p>立即下載，輕鬆體驗台東的美好吧！</p>
+				</div>
+				<div class="col-lg-4">
+					<img class="img-fluid usage-img rounded-5" src="../assets/images/20240716_184746.jpg">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="shop-area">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-4">
+					<h2 class="text-center"><a class="text-dark" href="">搜尋查看適用店家 ></a></h2>
+				</div>
+			</div>
+		</div>
+	</div>
+	
 
     <div class="container">
       <footer class="py-3 my-4">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">首頁</a></li>
+          <li class="nav-item"><a href="#usage" class="nav-link px-2 text-body-secondary">使用方法</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">適用店家</a></li>
         </ul>
-        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+        <p class="text-center text-body-secondary">©2024 台東旅遊會</p>
       </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
